@@ -1,0 +1,30 @@
+{
+  "name": "sorting",
+  "version": "1.0.0",
+  "description": "Sorting algorithms",
+  "main": "null",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "chai": "^1.10.0",
+    "sinon": "^1.12.1",
+    "sinon-chai": "^2.6.0"
+  },
+  "devDependencies": {
+    "mocha": "^2.0.1"
+  },
+  "scripts": {
+    "test": "make test-w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wdi-sf-september-2014/algorithms"
+  },
+  "author": "@zealoushacker",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wdi-sf-september-2014/algorithms/issues"
+  },
+  "homepage": "https://github.com/wdi-sf-september-2014/algorithms"
+}
