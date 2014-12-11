@@ -71,6 +71,17 @@ describe("merge_sort", function() {
       it("should invoke the merge_sort function with the correctly sliced sub-arrays", function() {
         Sort.merge_sort(unsorted_collection);
         expect(merge_sort_spy).to.have.been.calledWith([1000, -100, 25, 0, 200, 250, 300, -300]);
+        expect(merge_sort_spy).to.have.been.calledWith([1000, -100, 25, 0]);
+        expect(merge_sort_spy).to.have.been.calledWith([1000, -100]);
+        expect(merge_sort_spy).to.have.been.calledWith([1000]);
+        expect(merge_sort_spy).to.have.been.calledWith([]);
+        expect(merge_sort_spy).to.have.been.calledWith([25, 0]);
+        expect(merge_sort_spy).to.have.been.calledWith([25]);
+        expect(merge_sort_spy).to.have.been.calledWith([200, 250, 300, -300]);
+        expect(merge_sort_spy).to.have.been.calledWith([200, 250]);
+        expect(merge_sort_spy).to.have.been.calledWith([250]);
+        expect(merge_sort_spy).to.have.been.calledWith([300, -300]);
+        expect(merge_sort_spy).to.have.been.calledWith([300]);
       });
     });
 
