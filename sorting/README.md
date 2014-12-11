@@ -1,3 +1,3 @@
 # Some sorting algorithms
 
-http://jsperf.com/quadratic-sorting-algorithms
+For the quadratic algorithms, check this out: http://jsperf.com/quadratic-sorting-algorithms
